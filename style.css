@@ -1,0 +1,131 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+#firstpage{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar{
+	background: #fff;
+}
+.navbar-brand img{
+	height: 50px;
+	padding-left: 30px;
+	/*width: 30px;*/
+}
+.nav-link{
+	color: black!important;
+	font-weight: 600;
+	font-size: 15px;
+}
+.navbar-nav li{
+	/*border: 2px solid red;*/
+	padding: 0px 10px;
+	text-align: right;
+	
+
+}
+.navbar-nav li a:hover{
+/*		border: 2px solid blue;
+*/		color: blue!important;
+
+		/**/
+
+}
+.navbar-toggler{
+	border: none!important;
+}
+
+
+#slider{
+	width: 100%;
+}
+.carousel-item img{
+	height: 88.5vh;
+width: 100%;
+}
+.carousel-caption{
+	top: 50%;
+	text-transform: capitalize;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+.carousel-caption h5{
+	font-size: 40px;
+	color: #f79e1b;
+/*	color: #fff;
+*/}
+/*----------ABOURT SECTION-----------*/
+#about{
+	padding: 50px 0px;
+	color: #555;
+}
+#about .about-content{
+	padding-top: 30px;
+}
+#about .btn{
+	margin: 10px 0px;
+}
+.skill-bar {
+	padding-top: 10px;
+}
+.skill-bar p{
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+.progress-bar{
+	border-radius: 20px;
+}
+.progress{
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+/*--------SERVICE SECTION----------*/
+#service{
+	background-image:linear-gradient(
+	 rgba(0,0,0,.8),
+	 rgba(0,0,0,.8)),
+	 url(picture/code-coding-computer-data-574073.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 50px 0px;
+	color: #efefef;
+}
+#service h1{
+	text-align: center;
+	padding-bottom: 10px;
+}
+#service h1::after{
+	content: '';
+	background: #efefef;
+	display: block;
+	height: 3px;
+	width: 150px;
+	margin: 10px auto; 
+}
+.service-row{
+	margin-top: 40px;
+}
+.icon{
+	font-size: 40px;
+	margin: 20px auto;
+	padding: 5px;
+	height: 80px;
+	width: 80px;
+	border:  2px solid white;
+	border-radius: 100%;
+}
+#service p{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #ccc;
+}
+#service .text-center:hover{
+	background: #007bff;
+	cursor: pointer;
+	transition: 0.5s;
+}
